@@ -25,12 +25,17 @@ body::-webkit-scrollbar {
 
 header {
     display: flex;
+    position: fixed;
     justify-content: space-between;
     width: 100vw;
     height: 100px;
-    background-color: #111;
     z-index: 1000;
+    background-color: #111;
     transition: all 0.6s;
+}
+
+header.sticky {
+    border-bottom: 1px solid white;
 }
 
 .logo {
