@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*Hide scroll bar*/
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100px;
+    background-color: #111;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+}
+.logo img {
+    width: 150px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    margin-right: 120px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 65px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all 0.35s ease;
+}
+
+header nav ul li a:hover {
+    color: red;
+}
+
+/*Main*/
+
+main {
+    width: 100vw;
+    height: 120vh;
+    background-color: #111;
+    padding-left: 120px;
+    padding-top: 150px;
+}
+
+main h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+    
+    font-family: 'Poppins', sans-serif;
+    line-height: 2.5em;
+}
+
+main h1 span#title {
+    color: red;
+    font-size: 150px;
+}
+
+main .content {
+    text-align: justify;
+    width: 550px;
+}
+
+main .content p {
+    color: white;
+}
+
+main .btn {
+    box-sizing: content-box;
+    display: inline-block;
+    width: 200px;
+    background: red;
+    text-transform: uppercase;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+    margin-top: 50px;
+}
+
+main .btn a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+main .circle {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background: red;
+    clip-path: circle(750px at bottom right);
+}
+
+.images {
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+}
+
+.images #img1 {
+    position: absolute;
+    right: 700px;
+    bottom: 244px;
+    width: 200px;
+    transform: rotate(-15deg);
+}
+
+.images #img2 {
+    position: absolute;
+    right: 500px;
+    bottom: 244px;
+    width: 200px;
+    z-index: 1;
+    transform: rotate(10deg);
+}
+
+.images #img3 {
+    position: absolute;
+    right: 300px;
+    bottom: 244px;
+    width: 200px;
+    transform: rotate(6deg);
+}
+
+.imageFour {
+    position: relative;
+    right: -1600px;
+    bottom: 244px;
+    width: 200px;
+    transform: rotate(-8deg);
+}
+
+main .social-media {
+    display: flex;
+    z-index: 101;
+    margin-top: 200px;
+    gap: 20px;
+}
+
+main .instagram, .twitter, .facebook {
+    display: flex;
+    z-index: 101;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.35s ease;
+}
+
+main .instagram:hover, .twitter:hover, .facebook:hover {
+    background-color: transparent;
+}
