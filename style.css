@@ -85,7 +85,6 @@ main h1 {
     text-transform: uppercase;
     font-size: 65px;
     color: white;
-    margin: -2px;
     font-family: 'Poppins', sans-serif;
     line-height: 1.75em;
 }
@@ -160,7 +159,7 @@ main .circle {
     width: 100%;
     height: 100%;
     background: red;
-    clip-path: circle(750px at bottom right);
+    clip-path: circle(800px at bottom right);
 }
 
 
@@ -169,15 +168,15 @@ main .circle {
     position: absolute;
     right: 580px;
     bottom: 0px;
-    width: 200px;
+    width: 180px;
     transform: rotate(-10deg);
 }
 
 #img2 {
     position: absolute;
-    right: 355px;
+    right: 375px;
     bottom: 0px;
-    width: 200px;
+    width: 180px;
     z-index: 1;
     transform: rotate(-2deg);
 }
@@ -185,17 +184,17 @@ main .circle {
 #img3 {
     position: absolute;
     z-index: 5;
-    right: 170px;
+    right: 190px;
     bottom: 0px;
-    width: 200px;
+    width: 180px;
     transform: rotate(6deg);
 }
 
 .imageFour {
     position: absolute;
-    right: -10px;
+    right: 21px;
     bottom: 0px;
-    width: 200px;
+    width: 180px;
     transform: rotate(-5deg);
 }
 
