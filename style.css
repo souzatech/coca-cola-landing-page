@@ -42,6 +42,7 @@ header.sticky {
     display: flex;
     align-items: center;
     margin-left: 120px;
+    cursor: pointer;
 }
 .logo img {
     width: 150px;
@@ -194,4 +195,29 @@ main .instagram, .twitter, .facebook {
 
 main .instagram:hover, .twitter:hover, .facebook:hover {
     background-color: transparent;
+}
+
+.divider {
+    display: inline-block;
+    width: 100vw;
+    height: 2px;
+}
+
+body #main-divider {
+    position: absolute;
+    background: linear-gradient(to left, rgb(255, 255, 255), rgba(17, 17, 17, 0.986));
+}
+
+/*Products*/
+
+section#products {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(17, 17, 17, 0.986);
+}
+
+
+body #products-divider {
+    position: absolute;
+    background: linear-gradient(to left, rgb(255, 255, 255), rgba(17, 17, 17, 0.986));
 }
