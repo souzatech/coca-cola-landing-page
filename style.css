@@ -78,21 +78,23 @@ main {
     height: 100vh;
     background-color: rgba(17, 17, 17, 0.986);
     padding-left: 120px;
-    padding-top: 150px;
+    padding-top: 235px;
 }
 
 main h1 {
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 65px;
     color: white;
-    
+    margin: -2px;
     font-family: 'Poppins', sans-serif;
-    line-height: 2.5em;
+    line-height: 1.75em;
 }
 
 main h1 span#title {
     color: red;
     font-size: 150px;
+    margin: -6px;
+    padding: 0;
 }
 
 main .content {
