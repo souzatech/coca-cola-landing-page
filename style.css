@@ -7,6 +7,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/*all elements background color will be red. You can change it specifying below this global selector (105 line, e.g.)*/
+*::selection {
+    background-color: red;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -95,6 +100,11 @@ main h1 span#title {
     margin: -6px;
     padding: 0;
 }
+
+main h1 span#title::selection {
+    background-color: white;
+}
+
 
 main .content {
     text-align: justify;
